@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "a7f9e1ac-5583-4085-7f87-10785b79181f",
+		"name": "loja",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/lojaPOO/lojaPOO/api/categoria/update.php",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 1,\n\t\"nome\": \"Nova Categoria\",\n\t\"descricao\": \"Descrição de Categoria\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/lojaPOO/lojaPOO/api/categoria/update.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"lojaPOO",
+						"lojaPOO",
+						"api",
+						"categoria",
+						"update.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/lojaPOO/lojaPOO/api/categoria/read.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/lojaPOO/lojaPOO/api/categoria/read.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"lojaPOO",
+						"lojaPOO",
+						"api",
+						"categoria",
+						"read.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/lojaPOO/lojaPOO/api/categoria/create.php",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"nome\": \"Nova Categoria\",\n\t\"descricao\": \"Descrição de Categoria\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost/lojaPOO/lojaPOO/api/categoria/create.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"lojaPOO",
+						"lojaPOO",
+						"api",
+						"categoria",
+						"create.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost/lojaPOO/lojaPOO/api/categoria/delete.php",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\": 1\n}"
+				},
+				"url": {
+					"raw": "http://localhost/lojaPOO/lojaPOO/api/categoria/delete.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"lojaPOO",
+						"lojaPOO",
+						"api",
+						"categoria",
+						"delete.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
